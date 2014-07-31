@@ -21,6 +21,7 @@
 		076C5031198A501100CC3E2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076C5013198A501100CC3E2E /* UIKit.framework */; };
 		076C5039198A501100CC3E2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 076C5037198A501100CC3E2E /* InfoPlist.strings */; };
 		076C503B198A501100CC3E2E /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C503A198A501100CC3E2E /* Git_testTests.m */; };
+		076C5046198A5DC300CC3E2E /* UMtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C5045198A5DC300CC3E2E /* UMtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		076C5036198A501100CC3E2E /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		076C5038198A501100CC3E2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		076C503A198A501100CC3E2E /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		076C5044198A5DC300CC3E2E /* UMtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMtest.h; sourceTree = "<group>"; };
+		076C5045198A5DC300CC3E2E /* UMtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				076C5021198A501100CC3E2E /* Main.storyboard */,
 				076C5024198A501100CC3E2E /* UMViewController.h */,
 				076C5025198A501100CC3E2E /* UMViewController.m */,
+				076C5044198A5DC300CC3E2E /* UMtest.h */,
+				076C5045198A5DC300CC3E2E /* UMtest.m */,
 				076C5027198A501100CC3E2E /* Images.xcassets */,
 				076C5016198A501100CC3E2E /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				076C5020198A501100CC3E2E /* UMAppDelegate.m in Sources */,
+				076C5046198A5DC300CC3E2E /* UMtest.m in Sources */,
 				076C501C198A501100CC3E2E /* main.m in Sources */,
 				076C5026198A501100CC3E2E /* UMViewController.m in Sources */,
 			);
